@@ -4,7 +4,7 @@ import { parseCookies, destroyCookie } from 'nookies'
 import { NextApiRequest, NextApiResponse, NextPageContext } from 'next'
 
 export function PrismaAdapter(
-  req: NextApiRequest | NextApiRequest['req'],
+  req: NextApiRequest | NextPageContext['req'],
   res: NextApiResponse | NextPageContext['res'],
 ): Adapter {
   return {
