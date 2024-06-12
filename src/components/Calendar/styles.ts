@@ -30,7 +30,7 @@ export const CalendarActions = styled('div', {
     all: 'unset',
     cursor: 'pointer',
     lineHeight: '0',
-    borderRadius: 'sm',
+    borderRadius: '$sm',
 
     svg: {
       width: '$5',
@@ -56,7 +56,7 @@ export const CalendarBody = styled('table', {
   'thead th': {
     color: '$gray200',
     fontWeight: '$medium',
-    fontSize: 'sm',
+    fontSize: '$sm',
   },
 
   'tbody:before': {
